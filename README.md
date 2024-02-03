@@ -80,3 +80,8 @@ export MLFLOW_TRACKING_PASSWORD=0000000000000000000000000000000000000000
 replace "export" with "set" if you are using windows command prompt
 
 ```
+### DVC cmd
+
+1. dvc init
+2. dvc repro
+3. dvc dag
