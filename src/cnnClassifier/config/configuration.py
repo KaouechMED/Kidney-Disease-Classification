@@ -73,7 +73,7 @@ class ConfigurationManager:
     
     def get_evaluation_config(self) -> EvaluationConfig:
         eval_config = EvaluationConfig(
-            path_of_model="artifacts/training/model.h5",
+            path_of_model="model/model.h5",
             training_data="artifacts/data_ingestion/kidney-ct-scan-image",
             mlflow_uri="https://dagshub.com/KaouechMED/Kidney-Disease-Classification.mlflow",
             all_params=self.params,
