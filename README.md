@@ -93,11 +93,11 @@ replace "export" with "set" if you are using windows command prompt
 
 ## Run from terminal:
 
-docker build -t chickenapp.azurecr.io/chicken:latest .
+docker build -t kidneyapplication.azurecr.io/kidney:latest .
 
-docker login chickenapp.azurecr.io
+docker login kidneyapplication.azurecr.io
 
-docker push chickenapp.azurecr.io/chicken:latest
+docker push kidneyapplication.azurecr.io/kidney:latest
 
 
 ## Deployment Steps:
